@@ -1,0 +1,85 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+body, html {
+    background-color: black;
+    background-attachment: scroll;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    margin: 20px;
+    width:fit-content;
+    border: 5px;
+}
+
+nav a {
+    color: red;
+    text-decoration: black;
+    padding: 5px;
+}
+h1 {
+    font-size: medium;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0%;
+}
+
+button {
+    display: inline-flex;
+    background-color: red;
+    font-size: 10px;
+    color: black;
+    padding: 0%;
+    border: 4px solid;
+    border-radius: 6px;
+    transition-duration: .10s;
+}
+
+button:hover {
+    box-shadow: gray;
+}
+
+#submit {
+    padding: 0%;
+    border-radius: 0%;
+}
+
+#nextButton {
+    color: red;
+    padding: 5px 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    height: 75%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+#timer {
+    text-align: center;
+}
+#quizContent {
+    text-align: center;
+}
+#optionsUl li {
+    margin: 10px;
+}
+#OptionsUl {
+    width: 450px;
+}
+#scoreLi{
+    color: blue;
+    font-size: 25px;
+}
